@@ -1,5 +1,7 @@
-import { InvestorDemo } from "@/components/InvestorDemo";
+"use client";
+
+import { InvestorCleoScreen } from "@/components/InvestorCleoScreen";
 
 export default function Home() {
-  return <InvestorDemo />;
+  return <InvestorCleoScreen />;
 }
